@@ -103,8 +103,9 @@ td{
 	width: 700%;
 	height: 700%;
 	position: relative;
-	top: 290px;
-	left: 440px;
+	float: right;
+	
+	
 }
 
 /*------2. About------*/
@@ -170,6 +171,23 @@ td{
 	padding-bottom: 50px;
 
 }
+
+.PublicationsContainer ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+
+.PublicationsContainer li{
+	display: list-item;
+text-align: -webkit-match-parent;
+}
+
 
 /*------4. Projects------*/
 #projects{
@@ -774,6 +792,13 @@ a.r2-btn:hover{
 	padding: 6em;
 }
 
+/*------ 5. campusLife ------*/
+.top-head-bg-campusLife{
+	background: url(../images/head-bg-campusLife.jpg) no-repeat 0px 0px;
+	background-size:100%;
+	padding: 6em;
+}
+
 
 .top-header-left{
 	float:left;
@@ -881,7 +906,7 @@ a.r2-btn:hover{
 	text-transform: uppercase;
 }
 .service-content ul li{
-	display: block;
+	/*display: block;*/
 }
 .service-content ul li span{
 	width: 5%;
