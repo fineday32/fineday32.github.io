@@ -1,0 +1,215 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Thomas Hsu !</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link rel="shortcut icon" href="images/logo-sun.png" />	
+   		 <!-- Custom Theme files -->
+   		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header publications">
+						<div class="container">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo_50p.png" title="yellow" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav publications">
+							<ul class="top-nav publications">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li class="active"><a href="publications.html">Publications</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="campusLife.html">Campus Life</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		<!----- //End-header---->
+		<!---services---->
+		<div class="services">
+			<div class="top-heade top-head-bg-publications">
+				<div class="container">
+					<div class="top-header-left">
+						<h1>Publications</h1>
+					</div>
+					<div class="top-header-right">
+						<ul class="unstyled-list list-inline">
+							<li><a href="index.html">Home</a></li>
+							<li><span>:: &nbsp;&nbsp; Publications</span></li>
+							<div class="clearfix"> </div>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+
+			<div id="publications">
+				<div class="PublicationsContainer">
+					<!---services-grids---->
+					<div class="services-grids">
+						<div class="container">
+						<div class="cvc pub">
+								<div class="col-md-9 service-content">
+									<h3>Conference Papers, Poster and Demo</h3>
+									<li>
+								       Ying-Chao Tung, <u>Chun-Yen Hsu</u>, Han-Yu Wang, Jer-Wei Lin, Mike Y. Chen, "User-Defined Game Input for Smart Glasses in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public Space," submitted to
+								       <em>ACM <strong>CHI 2015</strong></em>, Seoul, Korea, May 2014.
+								       [
+										<a href="materials/User-Defined-Game-Input-for-Smart-Glass-in-Public-Space_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+									</li>
+									<li>
+								       <u>Chun-Yen Hsu</u>, Ying-Chao Tung, Han-Yu Wang, Wei-Han Wang, Mike Y. 
+								       Chen, "BodyTalk: Using Body Language &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communication in Online Cooperative 
+								       Games," submitted to 
+								       <em>ACM <strong>CHI 2015</strong></em>, Seoul, Korea, May 2014.
+								       [
+										<a href="materials/BodyTalk_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+									</li>
+									<li>   
+										<u>Chun-Yen Hsu</u>, Ying-Chao Tung, Han-Yu Wang, Silvia Chyou, Jer-Wei Lin, Mike Y. Chen, ''Glass Shooter: Exploring First- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Person Shooter Game Control with Google Glass,'' in Proceeding of <em>ACM <strong>ICMI 2014</strong></em>, Istanbul, Turkey, November 2014.  
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[
+										<a href="materials/GlassShooter-FPS_paper.pdf" target=_blank>
+											<img src="images/pdf.gif">
+											pdf
+										</a>
+										]
+									</li>
+									<li>
+									Cheng-Yao Wang, Wei-Chen Chu, Hou-Ren Chen, <u>Chun-Yen Hsu</u>, Mike Y. Chen, 
+								       "EverTutor: Automatically Creating &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Interactive Guided Tutorials on Smartphones by 
+								       User Demonstration," in Proceeding of 
+								       <em>ACM <strong>CHI 2014</strong></em>, Toronto, Canada, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2014.
+								       [
+										<a href="materials/EverTutor_paper.pdf" target=_blank>
+											<img src="images/pdf.gif">
+											pdf
+										</a>
+										]
+										&nbsp;
+										[
+										<a href="http://dl.acm.org/citation.cfm?id=2556288.2557407&coll=DL&dl=GUIDE&CFID=578020817&CFTOKEN=37656139" target=_blank>
+											<img src="images/acmdl.png" width="2%" height="2%" />
+											ACM Digital Library
+										</a>
+										]
+									</li>
+									<li>
+								       	<u>Chun-Yen Hsu</u>, Ying-Chao Tung, Wei-Han Wang, Han-Yu Wang, ''Mute Robot - 
+								       	Cooperative Gameplay through Body &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Language Communication," in Extended 
+								       	Abstract of 
+								       	<em>ACM <strong>CHI 2014</strong></em>, Toronto, Canada, May 2014.
+									   	[
+										<a href="materials/MuteRobot_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+										&nbsp;
+										[
+										<a href="http://dl.acm.org/citation.cfm?id=2559206.2580099&coll=DL&dl=GUIDE&CFID=578077244&CFTOKEN=20045303" target=_blank>
+											<img src="images/acmdl.png" width="2%" height="2%" />
+											ACM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Library
+										</a>
+										]
+									</li>
+		       
+								</div>
+								<div class="col-md-3 services-sidebar">
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+					</div>
+					</div>
+					<!---services-grids---->
+				</div>
+			</div>
+		</div>
+		<!---services---->
+		<!---copy-right--->
+		<div class="copy-right text-center">
+			<!-- <p>Template by <a href="http://w3layouts.com/">w3layouts</a></p> -->
+			<p><em>Thomas Hsu</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>NTU CSIE</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>2014</em></p>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!---//copy-right--->
+	</body>
+</html>
+

@@ -1,0 +1,464 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Thomas Hsu !</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link rel="shortcut icon" href="images/logo-sun.png" />	
+   		 <!-- Custom Theme files -->
+   		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header projects">
+						<div class="container">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo_50p.png" title="yellow" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav projects">
+							<ul class="top-nav projects">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="publications.html">Publications</a></li>
+								<li class="active"><a href="projects.html">Projects</a></li>
+								<li><a href="campusLife.html">Campus Life</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		<!----- //End-header---->
+		<!---portfolio---->
+		<div class="portfolio">
+
+			<!-- Start - top-head-photo -->
+			<div class="top-heade top-head-bg-projects">
+				<div class="container">
+					<div class="top-header-left">
+						<h1>portfolio</h1>
+					</div>
+					<div class="top-header-right">
+						<ul class="unstyled-list list-inline">
+							<li><a href="index.html">Home</a></li>
+							<li><span>:: &nbsp;&nbsp; portfolio</span></li>
+							<div class="clearfix"> </div>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- End - top-head-photo -->
+			
+			
+			<!-- Start - Project -->
+			<div id="projects">
+				<div class="ProjectsContainer">
+					<!-- Start - Project Category - Research Project -->
+					<div class="projCateg">
+						<div class="container">
+							<div class="row3-head">
+								<h4>Research Projects</h4>
+							</div>
+						</div>
+					</div>
+					<!-- End - Project Category - Research Project -->
+
+					<!---UserDefinedGameControl---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/UserDefinedGameControl.png" width="95%" height="95%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>User-Defined Game Control for Smart Glasses in Public Space</h3>
+									<span></span>
+									<p>Without a controller or direct-touch, game control on smart glasses differs from existing console and mobile games. We present a user-defined game control study in public space to collect user behavior without influence from system limitation. Our findings indicate that the user preference with In-Air interaction is significant higher than Phone controller, that users prefer a relatively unobtrusive control area with concerning social acceptance, and that different form factors of smart glasses do influence how users create control actions. We also present a complete user-defined game control set with agreement scores and taxonomy. Our results will help designers create better game controls informed by user behavior.</p>
+									<li class="proj-li">
+										Results were 
+										<strong>submitted</strong> 
+										in:
+										<a href="http://chi2015.acm.org" target=_blank>
+											<span class="mainTitle">CHI2015</span>
+										</a>
+										(Full Paper)
+										[
+										<a href="materials/User-Defined-Game-Input-for-Smart-Glass-in-Public-Space_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+									</li>
+									<!-- <li class="proj-li">
+										[
+										<a href="?">
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li> -->
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---UserDefinedGameControl---->
+
+					<!---GlassShooter---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/GlassShooter.png" width="90%" height="90%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>Glass Shooter</h3>
+									<span>Exploring First-Person Shooter Game Control with Google Glass</span>
+									<p>Smart Glasses offer the opportunity to use head mounted sensors, such as gyroscope and accelerometers, to enable new types of game interaction. Glass Shooter showed that participants were concerned with comfort and social acceptance. Also, their favorite input method was gyroscope, and their favorite game type was First-Person Shooter (FPS) game. Hence, we implemented a FPS game on Google Glass using gyroscope for changing the viewport, and divide FPS controls into four categories: (a)Viewport Control, (b)Aim Control, (c)Fire Control, (d) Move Control. We implemented multiple control method in each category to evaluate and explore glass game control design.</p>
+									<li class="proj-li">
+										Results were 
+										<strong>published</strong> 
+										in:
+										<a href="http://icmi.acm.org/2014/" target=_blank>
+											<span class="mainTitle">ICMI2014</span>
+										</a>
+										(Demo Section)
+										[
+										<a href="materials/GlassShooter-FPS_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+									</li>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/mpq6A49TpxI" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---GlassShooter---->
+
+
+					<!---BodyTalk---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/Bodytalk.png" width="90%" height="90%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>BodyTalk</h3>
+									<span>Using Body Language Communication in Online Cooperative Games</span>
+									<p>The rapid growth of the Internet has enabled billions of peo- ple to share photos, to blog, and to play games with each other. However, languages remain a barrier for people to connect, socialize, and cooperate around the world. BodyTalk showed that participants without common languages rated their experience as significantly more frustrating and less fun. We propose using body language to transcend language barriers for cooperative games.</p>
+									<li class="proj-li">
+										Results were 
+										<strong>submitted</strong> 
+										in:
+										<a href="http://chi2015.acm.org" target=_blank>
+											<span class="mainTitle">CHI2015</span>
+										</a>
+										(Full Paper)
+										[
+										<a href="materials/BodyTalk_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+									</li>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/GmSzjajNRbw" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---BodyTalk---->
+
+					<!---MuteRobot---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/MuteRobot.png" width="70%" height="70%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>Mute Robot</h3>
+									<span>Cooperative Gameplay through Body Language Communication</span>
+									<p>Body language is an expressive form of communication that transcends language barriers, and can range from subtle to outrageous. We have designed Mute Robot, a game in which 2 players must cooperate to solve a series of puzzle challenges by communicating through body language only. Kinect devices are used to capture players' posture and movement, which are then shared between two partners who are playing at two different physical locations. Mute Robot is designed to connect people across the globe who otherwise would not be able to communicate via a common language.</p>
+									<li class="proj-li">
+										Results were 
+										<strong>published</strong> 
+										in:
+										<a href="http://chi2014.acm.org" target=_blank>
+											<span class="mainTitle">CHI2014</span>
+										</a>
+										(Extended Abstract)
+										[
+										<a href="materials/MuteRobot_paper.pdf" target=_blank>
+											<img src="images/pdf.gif" />
+											pdf
+										</a>
+										]
+										&nbsp;
+										[
+										<a href="http://dl.acm.org/citation.cfm?id=2559206.2580099&coll=DL&dl=GUIDE&CFID=578077244&CFTOKEN=20045303" target=_blank>
+											<img src="images/acmdl.png" width="3%" height="3%" />
+											ACM Digital Library
+										</a>
+										]
+										<br> &nbsp;&nbsp;&nbsp;&nbsp;
+										And gained 
+										<a href="http://chi2014.acm.org/program/student-game-competition" target=_blank>
+											<strong>Student Competition Award</strong>, <strong>Innovative Game Design Winner</strong>
+										</a>
+									</li>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/nuMMPTIfIiU" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---MuteRobot---->
+
+					<!---EverTutor---->
+					<div class="row2 sec2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/EverTutor.png" width="70%" height="70%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>EverTutor</h3>
+									<span>Automatically Creating Interactive Guided Tutorials on Smartphones by User Demonstration</span>
+									<p>We present EverTutor, a system that automatically generates interactive step-by-step tutorials on smartphone from user demonstrations. EverTutor records low-level touch events, distinguishes touchscreen gestures and extracts regional screenshot around event location to generate tutorials automatically. When a tutorial is browsed, the system not only uses vision-based techniques to locate the target interactive region and overlay the tutorial contextually, but also identifies the correctness of the user's interaction and gives response. Besides, EverTutor automatically scroll or swipe to help users find the unseen interactive region.</p>
+									<li class="proj-li">
+										Results were 
+										<strong>published</strong> 
+										in:
+										<a href="http://chi2014.acm.org" target=_blank>
+											<span class="mainTitle">CHI2014</span>
+										</a>
+										(Full Paper)
+										[
+										<a href="materials/EverTutor_paper.pdf" target=_blank>
+											<img src="images/pdf.gif">
+											pdf
+										</a>
+										]
+										&nbsp;
+										[
+										<a href="http://dl.acm.org/citation.cfm?id=2556288.2557407&coll=DL&dl=GUIDE&CFID=578020817&CFTOKEN=37656139" target=_blank>
+											<img src="images/acmdl.png" width="3%" height="3%" />
+											ACM Digital Library
+										</a>
+										]
+									</li>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/ZrQDyQhg4lE" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---EverTutor---->
+
+					<!---TapAssist---->
+					<div class="row2 sec1">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/TapAssist.png" width="90%" height="90%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>TapAssist</h3>
+									<span>Personalizing Touchscreen Settings to Improve Usability for Users with Motor Skill Impairment</span>
+									<p>We present TapAssist, which personalizes touchscreen settings for individuals with motor skill impairments to improve tapping performance. TapAssist adapts gesture recognizer settings to an individual by measuring the distance of unintended movements when tapping, called touch slop. It then adjusts the the touch slop threshold to improve the recognition of tapping and scrolling.</p>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/Rdas0aw--2o" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---TapAssist---->
+					
+					<!-- Project Category-Non Research Project -->
+					<div class="projCateg">
+						<div class="container">
+							<div class="row3-head">
+								<h4>Non-Research Projects (Selected)</h4>
+							</div>
+						</div>
+					</div>
+					<!-- Project Category-Non Research Project -->
+
+					<!---MarchOnline---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/MarchOnline.png" width="70%" height="70%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>March Online</h3>
+									<span> Multiple Players Web Game to Simulate Congress Surroundings Sunflower Movement</span>
+									<p>According to Cross-Strait Service Trade Agreement forced through without due process on Mar. 18, 2014, Taiwanese young people are occupying the Parliament to end a democratic crisis. The Sunflower Movement (aka Occupy Parliament) is an ongoing student and civil protest in Taiwan, aiming to avoid a severe impact on Taiwanese people from all lines of work. With the purpose of raising public political awareness, we present ''March Online''. An online game simulates the surroundings of Legislative Yuan, congress of Taiwan, at the time of the sunflower movement. We utilize a relaxed and entertaining way, such as game, to approach citizens of Taiwan. Trying to let more and more people come into notice the issue.</p>
+									<li class="proj-li">
+										Game were released on:
+										<a href="http://march-online.herokuapp.com" target=_blank>
+										<strong>http://march-online.herokuapp.com</strong>
+										</a>
+									</li>
+									<li class="proj-li">
+										Web Game Source Code is available on
+										<a href="https://github.com/whwang5566/ParadeOnline" target=_blank>
+										<strong>GitHub</strong>
+										</a>
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---MarchOnline---->
+
+					<!---Catzuca---->
+					<div class="row2">
+						<div class="container">
+							<div class="row2-cols">
+								<div class="col-md-4 row2-col-divice">
+									<img src="images/Catzuca.png" width="70%" height="70%" title="name" />
+								</div>
+								<div class="col-md-8 row2-col-info">
+									<h3>Catzuca</h3>
+									<span>An App to Impetus Taiwan Aborigine Culture and Tourism on iOS 7</span>
+									<p>With the development and modernization in Taiwan, aboriginals who are becoming increasingly the underpriviledged minority need more love and attention from our society as a whole. We present Catzuca, an iOS app to allow more people aware of aboriginal culture. Catzuca not only provides a complete integration of aboriginal information and related merchant locations, but also offers multimedia services for user entertainment, such as a photo gallery to provide photos corresponding locations where users photographed. We also provides a function of movie synthesis. Several users' tourist videos (up to six) can be automatically synthesized mixed with aboriginal local background music. Hence, users can have their own exclusive aboriginal commemorative movies.</p>
+									<li class="proj-li">
+										[
+										<a href="http://youtu.be/Bh5aSnTo31c" target=_blank>
+										<strong>Demo Video</strong>
+										</a>
+										]
+									</li>
+									<li class="proj-li">
+										App Source Code is available on
+										<a href="https://github.com/fineday32/catzuca" target=_blank>
+										<strong>GitHub</strong>
+										</a>
+									</li>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<!---Catzuca---->
+				</div>
+			</div>
+			<!-- End - Projects -->
+				
+
+		</div>
+		<!---portfolio---->
+		<!---copy-right--->
+		<div class="copy-right text-center">
+			<!-- <p>Template by <a href="http://w3layouts.com/">w3layouts</a></p> -->
+			<p><em>Thomas Hsu</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>NTU CSIE</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>2014</em></p>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!---//copy-right--->
+	</body>
+</html>
+

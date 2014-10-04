@@ -1,1 +1,157 @@
-Hello World
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Thomas Hsu !</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<link rel="shortcut icon" href="images/logo-sun.png" />	
+   		 <!-- Custom Theme files -->
+   		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	
+	<body>
+
+		<!----- start-header---->
+			<div id="home" class="header">
+				<div class="top-header home">
+					<div class="container">
+						<div class="logo">
+							<a href="index.html"><img src="images/logo_50p.png" title="yellow" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav home">
+							<ul class="top-nav home">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="publications.html">Publications</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="campusLife.html">Campus Life</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		<!----- //End-header---->
+
+		
+		
+		<!-- <div class="top-heade top-head-bg-publications">
+			<div class="container">
+				<div class="top-header-left">
+					<h1>portfolio</h1>
+				</div>
+				<div class="top-header-right">
+					<ul class="unstyled-list list-inline">
+						<li><a href="index.html">Home</a></li>
+						<li><span>:: &nbsp;&nbsp; portfolio</span></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div> -->
+
+		<div id="index">
+			<div class="IndexContainer">
+				<div class="row3">
+					<div class="container">
+						<div class="col-md-4">
+								<img class="roundrect" src="images/CYProfile.jpg" width="90%" height="90%" title="name" />
+						</div>
+
+						<div class="col-md-1">
+							<img class="shouldMust" src="images/ShouldMust.png" title="ShouldMust">
+						</div>
+
+						<div class="col-md-6 row3-head">
+							<p>Welcome! I am currently pursuing graduate study to refine my knowledge and skills. I am drawn to it by the combination of my interest and real-world technical trend it boasts, and finally expect to make a strong contribution to the world.</p>
+
+							<p>I received my B.S. in <a href="http://www.csie.ntu.edu.tw" target=_blank>Computer Science and Information Engineering</a> with a double degree in <a href="http://www.econ.ntu.edu.tw/" target=_blank>Economics</a> from <a href="http://www.ntu.edu.tw" target=_blank>National Taiwan University</a> in 2014. And my interest in the patterns of human thoughts and interaction also motivated me to join the <a href="http://www.ntumobile.org" target=_blank>Mobile and HCI Research Laboratory</a>, directed by <a href="http://mikechen.com" target=_blank>Prof. Mike Y. Chen</a>.</p>
+
+							<p>My research is focused on Human-Computer Interaction, such as realizing the changes in behavior patterns with technology, usage of wearable devices as an integral part of daily life, and the change of connection between people through technology. More detailed information can be found in my <a href="projects.html">Projects</a>.</p>
+
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- End-Container -->
+		</div>
+		<!-- End-index -->
+		
+	
+		<!---copy-right--->
+		<div class="copy-right text-center">
+			<!-- <p>Template by <a href="http://w3layouts.com/">w3layouts</a></p> -->
+			<p><em>Thomas Hsu</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>NTU CSIE</em> &nbsp;&nbsp;| &nbsp;&nbsp;<em>2014</em></p>
+								<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+			<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!---//copy-right--->
+	</body>
+</html>
+
