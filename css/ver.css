@@ -1,0 +1,51 @@
+.ver01 {border-top-color: #a5d239; background-color:#a5d239;}
+
+
+/*---------------Ver02----------------------*/
+.ver02 {border-top-color: #ffc31c; background-color:#ffbb19;}
+.ver02 .Toprig a,.ver02 .Contaitop div a {color:#ffc31c;}
+.ver02 .Toprig a:first-child {	background-image: url(../images/toprigline02.gif);}
+.ver02 .Contaitop h1 {background-image: url(../images/ver02icon.gif);}
+.ver02 .Contaitop div {background-image: url(../images/ver02roadicon.gif);	color:#ffc31c;}
+.ver02 .Container_tit {background-image: url(../images/ver02titi_icon.gif);}
+
+/*---------------Ver03----------------------*/
+
+.ver03 {border-top-color: #aa9bff; background-color:#aa9bff;}
+.ver03 .Toprig a,.ver03 .Contaitop div a {color:#9a86c3;}
+.ver03 .Toprig a:first-child {	background-image: url(../images/toprigline03.gif);}
+.ver03 .Contaitop {margin-top: 31px;}
+.ver03 .Contaitop h1 {background-image: url(../images/ver03icon.gif);}
+.ver03 .Contaitop div {background-image: url(../images/ver03roadicon.gif);	color:#aa9bff;}
+.ver03 .Container_tit {background-image: url(../images/ver03titi_icon.gif);}
+.ver03 .BannerBox {background-image: url(../images/objbg03.png);}
+
+.ver03 .SecNav {
+	display: none;
+}
+
+
+/*---------------Ver04----------------------*/
+
+.ver04 {border-top-color: #7dc2ff; background-color:#7dc2ff;}
+.ver04 .Toprig a,.ver04 .Contaitop div a,.ver04 .blue04 {color:#7dc2ff;}
+.ver04 .Toprig a:first-child {	background-image: url(../images/toprigline04.gif);}
+.ver04 .Contaitop h1 {background-image: url(../images/ver04icon.gif);}
+.ver04 .Contaitop div {background-image: url(../images/ver04roadicon.gif);	color:#7dc2ff;}
+.ver04 .Container_tit {background-image: url(../images/ver04titi_icon.gif);}
+.ver04 .BannerBox {background-image: url(../images/objbg04.png);}
+
+.ver04 .Newslist ul li:last-child {
+	border-bottom-style: none;
+}
+
+
+/*---------------Ver05----------------------*/
+
+.ver05 {border-top-color: #ff8975; background-color:#ff8975;}
+.ver05 .Toprig a,.ver05 .Contaitop div a {color:#ff8975;}
+.ver05 .Toprig a:first-child {	background-image: url(../images/toprigline05.gif);}
+.ver05 .Contaitop {margin-top: 31px;}
+.ver05 .Contaitop h1 {background-image: url(../images/ver05icon.gif);}
+.ver05 .Contaitop div {background-image: url(../images/ver05roadicon.gif);	color:#ff8975;}
+.ver05 .Container_tit {background-image: url(../images/ver05titi_icon.gif);}
