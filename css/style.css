@@ -804,10 +804,11 @@ a.r2-btn:hover{
 	float:left;
 }
 .top-header-left h1{
-	color: #9E8E92;
-	text-transform: uppercase;
-	font-size: 2em;
-	font-weight: 700;
+	/*color: #9E8E92;*/
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/
+	/*font-size: 2em;*/
+	/*font-weight: 700;*/
 	margin: 0.05em 0 0 0;
 }
 .top-header-right{
