@@ -767,13 +767,13 @@ a.r2-btn:hover{
 	filter: alpha(opacity=0);
 }
 /*----about---*/
-.top-heade{
+/*.top-heade{
 	background: url(../images/head-bg.jpg) no-repeat 0px 0px;
 	background-size:100%;
-	/*padding: 5em;*/
-}
-.top-head-bg-index{
-	background: url(../images/head-bg-index.jpg) no-repeat 0px 0px;
+	padding: 5em;
+}*/
+.top-head-bg-about{
+	background: url(../images/head-bg-about.jpg) no-repeat 0px 0px;
 	background-size:100%;
 	padding: 6em;
 }
@@ -787,7 +787,7 @@ a.r2-btn:hover{
 
 /*------ 4. projects ------*/
 .top-head-bg-projects{
-	background: url(../images/head-bg-projects2.jpg) no-repeat 0px 0px;
+	background: url(../images/head-bg-projects.jpg) no-repeat 0px 0px;
 	background-size:100%;
 	padding: 6em;
 }
